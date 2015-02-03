@@ -1,0 +1,211 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:arial, sans-serif;0621
+	vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+	/*border: 0.1px dashed blue;*/
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:link {
+	color: #1A0DAB;
+}
+/* HEADER */
+#header {
+	background-color: #F1F1F1;
+	
+}
+
+#header * {
+	display: inline-block;
+	
+}
+
+#google-logo {
+	width: 127px;
+	height: 60px;
+	background-image: url(google-logo.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+#search-bar {
+	display: table;
+}
+
+#search-bar-container {
+	padding-bottom: 20px;
+}
+
+#search-text {
+	width: 540px;
+	font-size: 14pt;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#search-button {
+	height: 30px;
+	width: 60px;
+	background-image: url(search.png);
+	background-color: #4585F2;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#options-header {
+	float: right;
+	height: 60px;
+	display: table;
+	font-family: arial, sans-serif;
+}
+
+
+#options-header img {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+#options-header a {
+	color: black;
+}
+
+
+
+#g_p_avatar {
+	display: table-cell;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+/* end Header */
+
+/* method selector */
+
+#method-selector {
+	border-bottom: 1px solid #EBEBEB;
+	line-height: 54px;
+}
+
+#method-selector * {
+	display: inline-block;
+}
+
+#method-selector img {
+	float: right;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+.method-selected:first-child {
+	margin-left: 128px;
+	border-bottom: 3px solid #DD4B39;
+	color: #DD4B39;
+}
+
+.method-selected {
+	margin: 0 8px;
+	padding: 0 8px;
+	height: 54px;
+	vertical-align: middle;
+	font-size: 10pt;
+	color: #909090;
+}  
+
+/* drop down arrow */
+
+#drop-down-arrow {
+  height: 0;
+  width: 0;
+	border: 4px solid transparent;
+  border-top: 4px solid;
+}
+
+/* begin body */
+
+#body {
+	margin-left: 128px;	
+}
+
+#results-number {
+	color: #808080;
+	font-size: 10pt;
+	padding: 16px;
+}
+
+
+
+
+/* results */
+
+.result {
+	margin-top: 20px;
+}
+
+.result #drop-down-arrow {
+	display: inline-block;
+	color: #006621;
+}
+
+.result-title {
+	font-weight: normal;
+	font-size: 14pt;
+	margin: 3px;
+}
+
+.result-link {
+	color: #006621;
+	margin: 3px;
+	font-size: 10pt;
+	display: inline-block;
+}
+
+.result-description {
+	width: 512px;
+	font-size: 10pt;
+	color: #545E68;
+	padding-left: 3px; /* Why do I have to do this in order to <p> be aligned with the other elements of .result? */
+}
+
+/* goooooooogle */
+
+#goooogle * {
+	display: inline-block;
+}
+
+#goooogle {
+	margin: 30px;
+	margin-left: 100px;
+}
+
+.oo {
+	width: 20;
+	height: 56;
+	
+	background-image: url(o.png);
+	background-repeat: no-repeat;
+	background-position: top; 
+	
+	position:relative;
+}
+.oo span {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
