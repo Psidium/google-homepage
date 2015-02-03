@@ -143,9 +143,6 @@ a:link {
 	padding: 16px;
 }
 
-
-
-
 /* results */
 
 .result {
@@ -186,25 +183,80 @@ a:link {
 #goooogle {
 	margin: 30px;
 	margin-left: 100px;
+	height: 56px;
 }
 
-.oo {
-	width: 20;
-	height: 56;
-	
-	background-image: url(o.png);
+.oo, #go {
 	background-repeat: no-repeat;
 	background-position: top; 
-	
 	position:relative;
 }
-.oo span {
+
+#go {
+	width: 48px;
+	height: 56px;
+
+	background-image: url(go.png); 
+}
+
+#go span { right: 2px;}
+
+.oo {
+	width: 20px;
+	height: 56px;
+	background-position: left 9px;
+	background-image: url(o.png);
+}
+
+#goooogle-mais {
+	background-image: url(gle.png);
+	background-repeat: no-repeat;
+	background-position: left top; 
+	position:relative;
+	width: 82;
+	height: 56;
+}
+
+.oo span, #go span, #goooogle-mais span {
 	position: absolute;
 	bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	width: 20;
 }
 
+
+#goooogle-mais span {
+	width: 82;
+	text-align: right;
+}
+
+#goooogle-mais span h2 {
+	font-size: 1.5em;
+	margin-top: -41px;
+	margin-right: 14px;
+}
+
+/* footer */
+
+#footer {
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #EBEBEB;
+}
+
+#footer a:first-child {
+	margin-left: 125px;
+}
+
+#footer a {
+	font-size: 13px;
+	padding-left: 27px;
+	color: #777777;
+	line-height: 40px
+	
+}
 
 
 
